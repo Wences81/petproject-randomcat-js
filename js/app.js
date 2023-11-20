@@ -1,6 +1,6 @@
 const button = document.querySelector('.btn');
 const image = document.querySelector('.img');
-const url = "https://api.thecatapi.com/v1/images/BkIEhN3pG";
+const url = "http://aws.random.cat/meow";
 
 async function fetchHandler() {
     try {
@@ -14,6 +14,10 @@ async function fetchHandler() {
 }
 
 button.addEventListener('click', () => {
-    fetchHandler();
+    let = isLoaded = image.complete;
+
+    if (isLoaded) {
+        fetchHandler();
+    }
 })
 
